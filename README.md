@@ -55,22 +55,22 @@ Deep dive: [framework/docs/architecture.md](framework/docs/architecture.md)
 
 ## Commands
 
-| Command | Description |
-|---------|-------------|
-| `pnpm test` | Run full suite (all browsers) |
-| `pnpm test:smoke` | `@smoke` tagged tests |
-| `pnpm test:regression` | `@regression` tagged tests |
-| `pnpm test:api` | API tests only |
-| `pnpm test:e2e` | E2E folder |
-| `pnpm test:visual` | Visual regression |
-| `pnpm test:headed` | Headed browser |
-| `pnpm test:debug` | Playwright Inspector |
-| `pnpm test:ui` | Interactive UI mode |
-| `pnpm lint` | ESLint |
-| `pnpm typecheck` | TypeScript check |
-| `pnpm clean` | Remove reports & artifacts |
-| `pnpm setup:env` | Create `.env` from example |
-| `pnpm generate:data` | Generate mock JSON dataset |
+| Command                | Description                   |
+| ---------------------- | ----------------------------- |
+| `pnpm test`            | Run full suite (all browsers) |
+| `pnpm test:smoke`      | `@smoke` tagged tests         |
+| `pnpm test:regression` | `@regression` tagged tests    |
+| `pnpm test:api`        | API tests only                |
+| `pnpm test:e2e`        | E2E folder                    |
+| `pnpm test:visual`     | Visual regression             |
+| `pnpm test:headed`     | Headed browser                |
+| `pnpm test:debug`      | Playwright Inspector          |
+| `pnpm test:ui`         | Interactive UI mode           |
+| `pnpm lint`            | ESLint                        |
+| `pnpm typecheck`       | TypeScript check              |
+| `pnpm clean`           | Remove reports & artifacts    |
+| `pnpm setup:env`       | Create `.env` from example    |
+| `pnpm generate:data`   | Generate mock JSON dataset    |
 
 ---
 
@@ -110,11 +110,11 @@ Demo targets: [TodoMVC](https://demo.playwright.dev/todomvc) (UI), [JSONPlacehol
 
 ## Reporting
 
-| Reporter | Output |
-|----------|--------|
-| HTML | `playwright-report/` → `pnpm report` |
-| Allure | `framework/reporters/allure/results/` → `pnpm report:allure` |
-| Custom logs | `framework/reporters/logs/` |
+| Reporter    | Output                                                       |
+| ----------- | ------------------------------------------------------------ |
+| HTML        | `playwright-report/` → `pnpm report`                         |
+| Allure      | `framework/reporters/allure/results/` → `pnpm report:allure` |
+| Custom logs | `framework/reporters/logs/`                                  |
 
 On failure: screenshots, videos, traces (on retry).
 
@@ -160,13 +160,13 @@ Full guide: [framework/docs/conventions.md](framework/docs/conventions.md)
 
 ## Documentation
 
-| Doc | Topic |
-|-----|-------|
-| [architecture.md](framework/docs/architecture.md) | Layers & data flow |
-| [onboarding.md](framework/docs/onboarding.md) | First week guide |
-| [conventions.md](framework/docs/conventions.md) | Naming & structure |
-| [ci-cd.md](framework/docs/ci-cd.md) | Pipelines & artifacts |
-| [debugging.md](framework/docs/debugging.md) | Traces, logs, fixes |
+| Doc                                               | Topic                 |
+| ------------------------------------------------- | --------------------- |
+| [architecture.md](framework/docs/architecture.md) | Layers & data flow    |
+| [onboarding.md](framework/docs/onboarding.md)     | First week guide      |
+| [conventions.md](framework/docs/conventions.md)   | Naming & structure    |
+| [ci-cd.md](framework/docs/ci-cd.md)               | Pipelines & artifacts |
+| [debugging.md](framework/docs/debugging.md)       | Traces, logs, fixes   |
 
 ---
 

@@ -2,21 +2,21 @@
 
 ## Vision
 
-This framework is a **business-flow-oriented** test automation system. Tests describe *what* the product does; pages and API clients describe *how* to interact with it.
+This framework is a **business-flow-oriented** test automation system. Tests describe _what_ the product does; pages and API clients describe _how_ to interact with it.
 
 ## Layers
 
-| Layer | Responsibility | Must not contain |
-|-------|----------------|------------------|
-| `tests/` | Scenarios & assertions | Selectors, HTTP details |
-| `pages/` | UI interactions (POM) | Assertions about business rules |
-| `api/` | HTTP clients, schemas | Test orchestration |
-| `fixtures/` | Dependency injection | Business logic |
-| `data/` | Static & generated data | UI/API calls |
-| `utils/` | Generic helpers | Domain logic |
-| `config/` | Env, timeouts, Playwright | Test cases |
-| `reporters/` | Artifacts & logging | Test logic |
-| `scripts/` | CLI automation | — |
+| Layer        | Responsibility            | Must not contain                |
+| ------------ | ------------------------- | ------------------------------- |
+| `tests/`     | Scenarios & assertions    | Selectors, HTTP details         |
+| `pages/`     | UI interactions (POM)     | Assertions about business rules |
+| `api/`       | HTTP clients, schemas     | Test orchestration              |
+| `fixtures/`  | Dependency injection      | Business logic                  |
+| `data/`      | Static & generated data   | UI/API calls                    |
+| `utils/`     | Generic helpers           | Domain logic                    |
+| `config/`    | Env, timeouts, Playwright | Test cases                      |
+| `reporters/` | Artifacts & logging       | Test logic                      |
+| `scripts/`   | CLI automation            | —                               |
 
 ## Data flow
 

@@ -2,13 +2,13 @@
 
 ## Quick paths
 
-| Symptom | Action |
-|---------|--------|
-| Flaky timing | Increase timeout in `config/env` or use `expect.poll` |
-| Selector broke | Fix in page object only |
-| API contract change | Update `api/schemas/` |
-| Need step-through | `pnpm test:debug` |
-| See browser | `pnpm test:headed` |
+| Symptom             | Action                                                |
+| ------------------- | ----------------------------------------------------- |
+| Flaky timing        | Increase timeout in `config/env` or use `expect.poll` |
+| Selector broke      | Fix in page object only                               |
+| API contract change | Update `api/schemas/`                                 |
+| Need step-through   | `pnpm test:debug`                                     |
+| See browser         | `pnpm test:headed`                                    |
 
 ## Artifacts on failure
 

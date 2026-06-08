@@ -17,16 +17,16 @@ pnpm test
 
 ## Daily commands
 
-| Command | Purpose |
-|---------|---------|
-| `pnpm test` | Full suite |
-| `pnpm test:smoke` | Fast confidence check |
-| `pnpm test:regression` | Broader coverage |
-| `pnpm test:api` | API layer only |
-| `pnpm test:headed` | Visible browser |
-| `pnpm test:debug` | Playwright Inspector |
-| `pnpm test:ui` | Interactive UI mode |
-| `pnpm report` | Open HTML report |
+| Command                | Purpose               |
+| ---------------------- | --------------------- |
+| `pnpm test`            | Full suite            |
+| `pnpm test:smoke`      | Fast confidence check |
+| `pnpm test:regression` | Broader coverage      |
+| `pnpm test:api`        | API layer only        |
+| `pnpm test:headed`     | Visible browser       |
+| `pnpm test:debug`      | Playwright Inspector  |
+| `pnpm test:ui`         | Interactive UI mode   |
+| `pnpm report`          | Open HTML report      |
 
 ## Adding your first test
 
