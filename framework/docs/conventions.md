@@ -2,13 +2,13 @@
 
 ## Naming
 
-| Item | Convention | Example |
-|------|------------|---------|
-| Spec files | `<feature>.<layer>.spec.ts` | `todo.smoke.spec.ts` |
-| Page objects | `<feature>.page.ts` | `todo.page.ts` |
-| API clients | `<service>.client.ts` | `jsonplaceholder.client.ts` |
-| Tests | Business sentence | `user can complete checkout` |
-| Tags | `@smoke`, `@regression`, `@api` | In test title |
+| Item         | Convention                      | Example                      |
+| ------------ | ------------------------------- | ---------------------------- |
+| Spec files   | `<feature>.<layer>.spec.ts`     | `todo.smoke.spec.ts`         |
+| Page objects | `<feature>.page.ts`             | `todo.page.ts`               |
+| API clients  | `<service>.client.ts`           | `jsonplaceholder.client.ts`  |
+| Tests        | Business sentence               | `user can complete checkout` |
+| Tags         | `@smoke`, `@regression`, `@api` | In test title                |
 
 ## Folder rules
 
